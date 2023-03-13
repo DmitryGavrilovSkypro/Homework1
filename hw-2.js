@@ -1,8 +1,10 @@
 // example1//
-let a = Number(prompt('10'))
+let a = 10
+alert (a)
+a = 20
 alert (a)
 
-// example2//
+// example2//.
 const releaseiPhone = 2007
 alert (releaseiPhone)
 
@@ -35,12 +37,12 @@ alert (remainder)
 
 // example7//
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num + 1;
-num = num - 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num ++;
+num --;
 alert(num);
 
 // example8//
